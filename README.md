@@ -1,2 +1,2 @@
 # xinxinou1st
-first assignment: my site
+assignment: my styled website
