@@ -86,11 +86,11 @@ header,article,aside,footer{
   }
 
 	article {
-	flex: 3 auto;
+	flex: 3 0px;
 	}
 
   .aside-1 {
-  order:1;
+    order: 1;
   }
 
   article {
@@ -112,7 +112,7 @@ header,article,aside,footer{
  }
 
  .image {
-        width: 30%;
+        width: 50%;
         margin-right: 10px;
     }
 
