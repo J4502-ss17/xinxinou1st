@@ -1,3 +1,7 @@
+html{
+  font-size: 100%;
+}
+
 body {
     font-family: 'Droid Serif', Helvetica, Arial, serif;
 }
@@ -34,6 +38,7 @@ p {
 
 img {
     width: 100%;
+    display:none;
 }
 
 header {
@@ -66,11 +71,33 @@ header,article,aside,footer{
   padding:10px;
 }
 
-@media (min-width:800px) {
+@media screen and (min-width:600px) {
+
+  img {
+    display:block;
+  }
+
+  #container {
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+  }
 
   .navigation{
     flex-flow:row wrap;
+    justify-content:flex-end;
+  }
+}
+
+@media screen and (min-width:800px) {
+  /*.navigation{
+    flex-flow:row wrap;
     justify-content: flex-end;
+  }*/
+
+  #container{
+    width:90%;
+    max-width:60em;
   }
 
   .navigation a{
@@ -87,6 +114,7 @@ header,article,aside,footer{
 
 	article {
 	flex: 4 0px;
+  max-width:40em;
 	}
 
   .aside-1 {
@@ -111,6 +139,7 @@ header,article,aside,footer{
    display:flex;
    flex-flow:row;
    flex-wrap:wrap;
+   flex:2;
  }
 
  .image {
