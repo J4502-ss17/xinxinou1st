@@ -52,10 +52,6 @@ header {
     display:block;
   }
 
-  .navigation {
-    display:none;
-  }
-
 footer {
   background-color:#E8BC69;
 }
@@ -94,10 +90,6 @@ header,article,aside,footer{
 
     .menu-trigger {
         display: none;
-    }
-
-    .navigation{
-      display: flex;
     }
 
   img {
