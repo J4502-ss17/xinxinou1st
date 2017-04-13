@@ -45,6 +45,13 @@ header {
   background-color:#FF7267;
 }
 
+.menu-trigger {
+    order: 1;
+    font-size: 1.8em;
+    width: 2em;
+    display:block;
+  }
+
 footer {
   background-color:#E8BC69;
 }
@@ -72,6 +79,18 @@ header,article,aside,footer{
 }
 
 @media screen and (min-width:600px) {
+
+  nav ul {
+        display:flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
 
   img {
     display:block;
